@@ -1,0 +1,14 @@
+html {
+    font-family: "Playfair Display", serif;
+    font-family: "Tinos", serif;
+}
+
+:root {
+    --primary-color: #fff;
+    --font-color-000: #000;
+    --font-color-757575: #757575;
+    --font-color-607d8b: #607d8b;
+    --font-size-15: 15px;
+    --font-size-20: 20px;
+    --font-size-36: 36px;
+}
