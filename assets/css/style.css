@@ -1,0 +1,261 @@
+.header{
+    width:100%;
+    height:55px;
+    box-shadow: #000000 0px 2px 5px 0px;
+    padding:8px 16px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top:0;
+    left:0;
+    right:0;
+    position: fixed; 
+    background-color: #ffff; 
+    align-items: center;
+    font-size: 15px;
+    line-height:22.5px;
+    z-index: 10;
+    
+    
+}
+
+.navigation__items{
+    font-size:15px;
+    padding:8px 16px;
+    text-align:center;
+    letter-spacing: 5px;
+    text-decoration: none;
+    line-height: 22.5px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color: black;
+}
+.header__logo > a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    padding:8px 16px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:black;
+}
+.navigation__items:hover{
+    background-color: #cccccc;
+}
+.header__logo > a:hover{
+    background-color: #cccccc;
+}
+.picture {
+    width: 1263px;
+    height: 632px;
+   
+  }
+  
+  .picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .picture > h2{
+    position:absolute;
+    top:540px;
+    font-size:36px;
+    letter-spacing: 5px;
+    color: #5a5b5f;
+    padding:20px;
+    line-height: 56px;
+  }
+  .picture2 {
+    width: 708.667px; /* Thêm khoảng trống để giữa hình ảnh và lề phải */
+    height: 517.500px;
+  }
+  .picture2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding:64px;
+    margin-right:50px;
+  }
+  #about {
+    display:flex;
+    flex-direction: row;
+    margin-top:64px;
+    gap:50px;
+    padding:0px 104px;;
+
+  }
+.paragraph{
+  padding:10px 0;
+}
+#heading{
+  font-family: "Playfair Display";
+  font-size:36px;
+  letter-spacing: 5px;
+  line-height: 54px;
+  margin:10px 0;
+  text-align:center;
+}
+#caption{
+  font-family: "Playfair Display";
+  font-size:18px;
+  letter-spacing: 5px;
+  line-height:27px;
+  margin:10px 0;
+  text-align: center;
+
+}
+#content1{
+  font-family: "Times New Roman";
+  font-size: 18px;
+  line-height: 27px;
+  margin:18px 0;
+}
+#content2{
+  color:#757575;
+  font-family: "Times New Roman";
+  font-size: 18px;
+  line-height: 27px;
+  margin:18px 0;
+}
+
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:191px ;
+}
+.picture3{
+  width:502px;
+  height: 753px;
+  margin-right:80px;
+}
+.picture3 > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.paragraph1{
+  padding:30px 0;
+}
+#heading1{
+  font-family: "Playfair Display";
+  font-size:36px;
+  letter-spacing: 5px;
+  line-height:54px;
+  margin:10px 0;
+  text-align: center;
+
+}
+.menu__items > h1{
+  font-family: "Playfair Display";
+  font-size:   20px;;
+  letter-spacing: 5px;
+  line-height:30px;
+  margin:0 50px;
+}
+.menu__items > p{
+  color:#757575;
+  font-family: "Playfair Display";
+  font-size:   15px;;
+  line-height:22.5px;
+  margin:0 50px;
+  margin-top:10px;
+}
+#contact{
+  margin-top: 200px;
+}
+.contactform{
+  display: flex;
+  flex-direction: column;
+  margin:0 98px;
+}
+#heading2{
+  font-family: "Playfair Display";
+  font-size:36px;
+  letter-spacing: 5px;
+  line-height:54px;
+  margin:0 98px;
+}
+.contentend{
+  font-family:"Times New Roman";
+  font-size:15px;
+  line-height: 22.5px;
+  margin:0 98px;
+}
+#set{
+  color:#607d8b;
+  display:inline;
+  font-family:"Times New Roman";
+  font-size:18px;
+  line-height: 27px;
+  font-weight:700;
+  margin:0 98px;
+}
+#name{
+  background-color: #fff;
+  font-family: "Playfair Display";
+  font-size:15px;
+  line-height:22.5px;
+  padding:16px 8px;
+  border:none;
+  border-bottom:1px solid #757575;
+  margin-bottom: 14px;
+}
+#name:focus{
+  border:1px solid #000000;
+}
+#numbers{
+  background-color: #fff;
+  font-family: "Playfair Display";
+  font-size:15px;
+  line-height:22.5px;
+  padding:16px 8px;
+  border:none;
+  border-bottom:1px solid #757575;
+  margin-bottom: 14px;
+}
+#numbers:focus{
+  border:1px solid #000000;
+}
+#dates{
+  background-color: #fff;
+  font-family: "Playfair Display";
+  font-size:15px;
+  line-height:22.5px;
+  padding:16px 8px;
+  border:none;
+  border-bottom:1px solid #757575;
+  margin-bottom: 14px;
+}
+#dates:focus{
+  border:1px solid #000000;
+}
+#messenge{
+  background-color: #fff;
+  font-family: "Playfair Display";
+  font-size:15px;
+  line-height:22.5px;
+  padding:16px 8px;
+  border:none;
+  border-bottom:1px solid #757575; margin-bottom: 14px;
+}
+#messenge:focus{
+  border:1px solid #000000;
+}
+#send{
+  width:145px;
+  height:39px;
+  margin:30px 98px;
+  background-color: #f1f1f1;
+}
+#send:hover{
+  background-color: #dedede;
+}
+
+
+
+
+  
+  
+ 
